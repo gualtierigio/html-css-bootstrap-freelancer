@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^="col"]{
+    border: 1px solid red;
+    background-color: antiquewhite;
+}
+
+.header_container{
+    height: 50px;
+}
+
+.jumbotron{
+    height: 500px;
+}
+
+.title{
+    text-align: center;
+}
+
+.underline_star{
+    height: 30px;
+}
+
+.portfolio__content{
+    height: 200px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.about{
+    height: 300px;
+}
+
+.inputs{
+    height: 400px;
+}
+
+.footer_container{
+    height: 300px;
+}
+
+.footer__content{
+    height: 200px;
+}
+
+.copirait{
+    height: 100px;
+}
