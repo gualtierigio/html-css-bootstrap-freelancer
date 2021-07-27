@@ -6,15 +6,43 @@
 
 [class^="col"]{
     border: 1px solid red;
-    background-color: antiquewhite;
 }
 
 .header_container{
     height: 50px;
 }
 
-.jumbotron{
-    height: 500px;
+/*Jumbotron*/
+
+.bg-aqua{
+    background-color: rgb(7, 207, 163);
+}
+
+.avatar{
+    background-image: url(../img/avatar.svg);
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .avatar{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .avatar{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .title{
@@ -25,26 +53,57 @@
     height: 30px;
 }
 
+/*Portfolio*/
+
 .portfolio__content{
     height: 200px;
-    margin: 10px;
-    border-radius: 6px;
 }
 
-.about{
-    height: 300px;
+.img-portfolio{
+    background-size: contain;
+    height: 100%;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.inputs{
-    height: 400px;
+.cabin{
+    background-image: url(../img/cabin.png);
+}
+
+.cake{
+    background-image: url(../img/cake.png);
+}
+
+.circus{
+    background-image: url(../img/circus.png);
+}
+
+.game{
+    background-image: url(../img/game.png);
+}
+
+.safe{
+    background-image: url(../img/safe.png);
+}
+
+.submarine{
+    background-image: url(../img/submarine.png);
+}
+
+/*About part*/
+
+
+
+/*contact us*/
+
+.btn-success{
+    background-color: aqua;
+    border: aqua;
 }
 
 .footer_container{
-    height: 300px;
-}
-
-.footer__content{
-    height: 200px;
+    background-color: rgb(8, 8, 88);
 }
 
 .copirait{
